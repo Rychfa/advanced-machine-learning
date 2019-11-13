@@ -1,0 +1,240 @@
+1) NO OUTLIERS REMOVAL
+
+
+KFOLD 10
+*********************************
+CLASSIFIER --> Pipeline
+SVC-2019.11.01T14.03.32.csv
+*********************************
+best estimator: Pipeline(memory=None,
+         steps=[('scaler',
+                 RobustScaler(copy=True, quantile_range=(25.0, 75.0),
+                              with_centering=True, with_scaling=True)),
+                ('feature_selector',
+                 SelectKBest(k=500,
+                             score_func=<function f_regression at 0x0000022CAEE29C18>)),
+                ('classifier',
+                 SVC(C=1.0, cache_size=1500, class_weight='balanced', coef0=0.0,
+                     decision_function_shape='ovr', degree=3, gamma='auto',
+                     kernel='rbf', max_iter=-1, probability=False,
+                     random_state=None, shrinking=True, tol=1e-12,
+                     verbose=False))],
+         verbose=False)
+std: 0.025793976391921335
+score: 0.692962962962963
+params: {'classifier__C': 1.0, 'classifier__cache_size': 1500, 'classifier__gamma': 'auto', 'classifier__kernel': 'rbf', 'classifier__tol': 1e-12, 'feature_selector__k': 500, 'feature_selector__score_func': <function f_regression at 0x0000022CAEE29C18>}
+*********************************
+
+
+
+KFOLD 10
+*********************************
+CLASSIFIER --> Pipeline
+SVC-2019.11.01T15.24.39.csv
+*********************************
+best estimator: Pipeline(memory=None,
+         steps=[('scaler',
+                 RobustScaler(copy=True, quantile_range=(25.0, 75.0),
+                              with_centering=True, with_scaling=True)),
+                ('feature_selector',
+                 SelectKBest(k=600,
+                             score_func=<function f_regression at 0x000001D5E6F99C18>)),
+                ('classifier',
+                 SVC(C=1.0, cache_size=1500, class_weight='balanced', coef0=0.0,
+                     decision_function_shape='ovr', degree=3, gamma='auto',
+                     kernel='rbf', max_iter=-1, probability=False,
+                     random_state=None, shrinking=True, tol=1e-12,
+                     verbose=False))],
+         verbose=False)
+std: 0.025015255976105193
+score: 0.6945370370370371
+params: {'classifier__C': 1.0, 'classifier__cache_size': 1500, 'classifier__gamma': 'auto', 'classifier__kernel': 'rbf', 'classifier__tol': 1e-12, 'feature_selector__k': 600, 'feature_selector__score_func': <function f_regression at 0x000001D5E6F99C18>}
+*********************************
+
+
+
+
+
+
+
+KFOLD 10
+*********************************
+CLASSIFIER --> Pipeline
+SVC-2019.11.01T15.42.05.csv
+*********************************
+best estimator: Pipeline(memory=None,
+         steps=[('scaler',
+                 RobustScaler(copy=True, quantile_range=(25.0, 75.0),
+                              with_centering=True, with_scaling=True)),
+                ('classifier',
+                 SVC(C=1.2, cache_size=1500, class_weight='balanced', coef0=0.0,
+                     decision_function_shape='ovr', degree=3, gamma='auto',
+                     kernel='rbf', max_iter=-1, probability=False,
+                     random_state=None, shrinking=True, tol=1e-12,
+                     verbose=False))],
+         verbose=False)
+std: 0.03227220474189214
+score: 0.6972222222222223
+params: {'classifier__C': 1.2, 'classifier__cache_size': 1500, 'classifier__gamma': 'auto', 'classifier__kernel': 'rbf', 'classifier__tol': 1e-12}
+
+
+
+
+
+
+KFOLD 10
+*********************************
+CLASSIFIER --> Pipeline
+*********************************
+best estimator: Pipeline(memory=None,
+         steps=[('scaler',
+                 RobustScaler(copy=True, quantile_range=(25.0, 75.0),
+                              with_centering=True, with_scaling=True)),
+                ('classifier',
+                 SVC(C=1.2, cache_size=1500, class_weight='balanced', coef0=0.0,
+                     decision_function_shape='ovr', degree=3, gamma='auto',
+                     kernel='rbf', max_iter=-1, probability=False,
+                     random_state=None, shrinking=True, tol=1e-12,
+                     verbose=False))],
+         verbose=False)
+std: 0.03533459990741771
+score: 0.6971296296296297
+params: {'classifier__C': 1.2, 'classifier__cache_size': 1500, 'classifier__gamma': 'auto', 'classifier__kernel': 'rbf', 'classifier__tol': 1e-12}
+*********************************
+
+
+
+
+
+
+
+
+KFOLD 10
+*********************************
+CLASSIFIER --> Pipeline
+SVC-2019.11.01T16.12.37.csv
+*********************************
+best estimator: Pipeline(memory=None,
+         steps=[('scaler',
+                 RobustScaler(copy=True, quantile_range=(25.0, 75.0),
+                              with_centering=True, with_scaling=True)),
+                ('classifier',
+                 SVC(C=1.0666666666666667, cache_size=1500,
+                     class_weight='balanced', coef0=0.0,
+                     decision_function_shape='ovo', degree=3, gamma='auto',
+                     kernel='rbf', max_iter=-1, probability=False,
+                     random_state=None, shrinking=True, tol=1e-12,
+                     verbose=False))],
+         verbose=False)
+std: 0.019937316034128513
+score: 0.7022222222222222
+params: {'classifier__C': 1.0666666666666667, 'classifier__cache_size': 1500, 'classifier__decision_function_shape': 'ovo', 'classifier__gamma': 'auto', 'classifier__kernel': 'rbf', 'classifier__tol': 1e-12}
+*********************************
+
+
+
+
+
+
+
+
+KFOLD 20
+*********************************
+CLASSIFIER --> Pipeline
+SVC-2019.11.01T16.32.43.csv
+*********************************
+best estimator: Pipeline(memory=None,
+         steps=[('scaler',
+                 RobustScaler(copy=True, quantile_range=(25.0, 75.0),
+                              with_centering=True, with_scaling=True)),
+                ('classifier',
+                 SVC(C=1.0, cache_size=1500, class_weight='balanced', coef0=0.0,
+                     decision_function_shape='ovo', degree=3, gamma='auto',
+                     kernel='rbf', max_iter=-1, probability=False,
+                     random_state=None, shrinking=True, tol=1e-12,
+                     verbose=False))],
+         verbose=False)
+std: 0.027827848391324354
+score: 0.7060648148148148
+params: {'classifier__C': 1.0, 'classifier__cache_size': 1500, 'classifier__decision_function_shape': 'ovo', 'classifier__gamma': 'auto', 'classifier__kernel': 'rbf', 'classifier__tol': 1e-12}
+*********************************
+
+
+
+
+
+
+
+
+
+
+
+KFOLD 30
+*********************************
+CLASSIFIER --> Pipeline
+SVC-2019.11.01T17.14.42.csv
+*********************************
+best estimator: Pipeline(memory=None,
+         steps=[('scaler',
+                 RobustScaler(copy=True, quantile_range=(25.0, 75.0),
+                              with_centering=True, with_scaling=True)),
+                ('classifier',
+                 SVC(C=1.3, cache_size=1500, class_weight='balanced', coef0=0.0,
+                     decision_function_shape='ovo', degree=3, gamma='auto',
+                     kernel='rbf', max_iter=-1, probability=False,
+                     random_state=None, shrinking=True, tol=1e-12,
+                     verbose=False))],
+         verbose=False)
+std: 0.025862669008135185
+score: 0.7031790123456788
+params: {'classifier__C': 1.3, 'classifier__cache_size': 1500, 'classifier__decision_function_shape': 'ovo', 'classifier__gamma': 'auto', 'classifier__kernel': 'rbf', 'classifier__tol': 1e-12}
+*********************************
+
+
+
+
+
+
+
+
+
+
+
+
+KFOLD 5
+*********************************
+CLASSIFIER --> Pipeline
+SVC-2019.11.03T11.26.11.csv
+*********************************
+best estimator: Pipeline(memory=None,
+         steps=[('scaler',
+                 RobustScaler(copy=True, quantile_range=(25.0, 75.0),
+                              with_centering=True, with_scaling=True)),
+                ('classifier',
+                 SVC(C=1.0, cache_size=1500, class_weight='balanced', coef0=0.0,
+                     decision_function_shape='ovo', degree=3, gamma='auto',
+                     kernel='rbf', max_iter=-1, probability=False,
+                     random_state=None, shrinking=True, tol=1e-13,
+                     verbose=False))],
+         verbose=False)
+std: 0.01865137527705806
+score: 0.7081481481481483
+params: {'classifier__C': 1.0, 'classifier__cache_size': 1500, 'classifier__decision_function_shape': 'ovo', 'classifier__gamma': 'auto', 'classifier__kernel': 'rbf', 'classifier__tol': 1e-13}
+*********************************
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
