@@ -1,0 +1,346 @@
+*********************************
+CLASSIFIER --> Pipeline
+*********************************
+best estimator: Pipeline(memory=None,
+         steps=[('scaler', MinMaxScaler(copy=True, feature_range=(0, 1))),
+                ('classifier',
+                 SVC(C=100000.0, cache_size=1500, class_weight='balanced',
+                     coef0=0.0, decision_function_shape='ovr', degree=3,
+                     gamma=0.1, kernel='rbf', max_iter=-1, probability=False,
+                     random_state=None, shrinking=True, tol=0.001,
+                     verbose=False))],
+         verbose=False)
+std: 0.017674432355298746
+score: 0.7615234375
+params: {'classifier__C': 100000.0, 'classifier__cache_size': 1500, 'classifier__class_weight': 'balanced', 'classifier__coef0': 0.0, 'classifier__decision_function_shape': 'ovr', 'classifier__gamma': 0.1, 'classifier__kernel': 'rbf'}
+*********************************
+min std estimator id: 8
+std: 0.013419830770548348
+score: 0.7466796875
+params: {'classifier__C': 1000.0, 'classifier__cache_size': 1500, 'classifier__class_weight': 'balanced', 'classifier__coef0': 0.0, 'classifier__decision_function_shape': 'ovr', 'classifier__gamma': 0.1, 'classifier__kernel': 'rbf'}
+
+
+
+
+
+
+*********************************
+CLASSIFIER --> Pipeline
+*********************************
+best estimator: Pipeline(memory=None,
+         steps=[('scaler', MinMaxScaler(copy=True, feature_range=(0, 1))),
+                ('classifier',
+                 MLPClassifier(activation='tanh', alpha=1e-06,
+                               batch_size='auto', beta_1=0.9, beta_2=0.999,
+                               early_stopping=False, epsilon=1e-08,
+                               hidden_layer_sizes=(21, 21),
+                               learning_rate='constant',
+                               learning_rate_init=0.01, max_iter=200,
+                               momentum=0.9, n_iter_no_change=10,
+                               nesterovs_momentum=True, power_t=0.5,
+                               random_state=1, shuffle=True, solver='adam',
+                               tol=0.0001, validation_fraction=0.1,
+                               verbose=False, warm_start=False))],
+         verbose=False)
+std: 0.013898786620825934
+score: 0.77421875
+params: {'classifier__activation': 'tanh', 'classifier__alpha': 1e-06, 'classifier__batch_size': 'auto', 'classifier__beta_1': 0.9, 'classifier__beta_2': 0.999, 'classifier__early_stopping': False, 'classifier__epsilon': 1e-08, 'classifier__hidden_layer_sizes': (21, 21), 'classifier__learning_rate': 'constant', 'classifier__learning_rate_init': 0.01, 'classifier__max_iter': 200, 'classifier__momentum': 0.9, 'classifier__n_iter_no_change': 10, 'classifier__nesterovs_momentum': True, 'classifier__power_t': 0.5, 'classifier__random_state': 1, 'classifier__shuffle': True, 'classifier__solver': 'adam', 'classifier__tol': 0.0001, 'classifier__validation_fraction': 0.1, 'classifier__warm_start': False}
+*********************************
+min std estimator id: 48
+std: 0.0
+score: 0.591796875
+params: {'classifier__activation': 'logistic', 'classifier__alpha': 1e-06, 'classifier__batch_size': 'auto', 'classifier__beta_1': 0.9, 'classifier__beta_2': 0.999, 'classifier__early_stopping': False, 'classifier__epsilon': 1e-08, 'classifier__hidden_layer_sizes': (21, 21), 'classifier__learning_rate': 'constant', 'classifier__learning_rate_init': 0.0001, 'classifier__max_iter': 200, 'classifier__momentum': 0.9, 'classifier__n_iter_no_change': 10, 'classifier__nesterovs_momentum': True, 'classifier__power_t': 0.5, 'classifier__random_state': 1, 'classifier__shuffle': True, 'classifier__solver': 'adam', 'classifier__tol': 0.0001, 'classifier__validation_fraction': 0.1, 'classifier__warm_start': False}
+
+
+
+
+
+*********************************
+CLASSIFIER --> Pipeline
+*********************************
+best estimator: Pipeline(memory=None,
+         steps=[('scaler', MinMaxScaler(copy=True, feature_range=(0, 1))),
+                ('classifier',
+                 MLPClassifier(activation='tanh', alpha=1e-07,
+                               batch_size='auto', beta_1=0.9, beta_2=0.9,
+                               early_stopping=False, epsilon=1e-08,
+                               hidden_layer_sizes=(21, 21),
+                               learning_rate='constant',
+                               learning_rate_init=0.01, max_iter=200,
+                               momentum=0.9, n_iter_no_change=10,
+                               nesterovs_momentum=True, power_t=0.5,
+                               random_state=1, shuffle=True, solver='adam',
+                               tol=0.0001, validation_fraction=0.1,
+                               verbose=False, warm_start=False))],
+         verbose=False)
+std: 0.01728156963142472
+score: 0.7736328125
+params: {'classifier__activation': 'tanh', 'classifier__alpha': 1e-07, 'classifier__batch_size': 'auto', 'classifier__beta_1': 0.9, 'classifier__beta_2': 0.9, 'classifier__early_stopping': False, 'classifier__epsilon': 1e-08, 'classifier__hidden_layer_sizes': (21, 21), 'classifier__learning_rate': 'constant', 'classifier__learning_rate_init': 0.01, 'classifier__max_iter': 200, 'classifier__momentum': 0.9, 'classifier__n_iter_no_change': 10, 'classifier__nesterovs_momentum': True, 'classifier__power_t': 0.5, 'classifier__random_state': 1, 'classifier__shuffle': True, 'classifier__solver': 'adam', 'classifier__tol': 0.0001, 'classifier__validation_fraction': 0.1, 'classifier__warm_start': False}
+*********************************
+min std estimator id: 256
+std: 0.0
+score: 0.591796875
+params: {'classifier__activation': 'logistic', 'classifier__alpha': 1e-10, 'classifier__batch_size': 'auto', 'classifier__beta_1': 0.8, 'classifier__beta_2': 0.9, 'classifier__early_stopping': False, 'classifier__epsilon': 1e-10, 'classifier__hidden_layer_sizes': (21, 21), 'classifier__learning_rate': 'constant', 'classifier__learning_rate_init': 0.0001, 'classifier__max_iter': 200, 'classifier__momentum': 0.9, 'classifier__n_iter_no_change': 10, 'classifier__nesterovs_momentum': True, 'classifier__power_t': 0.5, 'classifier__random_state': 1, 'classifier__shuffle': True, 'classifier__solver': 'adam', 'classifier__tol': 0.0001, 'classifier__validation_fraction': 0.1, 'classifier__warm_start': False}
+
+
+
+
+
+*********************************
+CLASSIFIER --> Pipeline
+*********************************
+best estimator: Pipeline(memory=None,
+         steps=[('scaler', MinMaxScaler(copy=True, feature_range=(0, 1))),
+                ('classifier',
+                 SVC(C=8000, cache_size=1500, class_weight='balanced',
+                     coef0=0.0, decision_function_shape='ovr', degree=3,
+                     gamma=0.3, kernel='rbf', max_iter=-1, probability=False,
+                     random_state=None, shrinking=True, tol=0.001,
+                     verbose=False))],
+         verbose=False)
+std: 0.018100948818902594
+score: 0.7658203125
+params: {'classifier__C': 8000, 'classifier__cache_size': 1500, 'classifier__class_weight': 'balanced', 'classifier__coef0': 0.0, 'classifier__decision_function_shape': 'ovr', 'classifier__gamma': 0.3, 'classifier__kernel': 'rbf'}
+*********************************
+
+
+
+*********************************
+CLASSIFIER --> Pipeline
+*********************************
+best estimator: Pipeline(memory=None,
+         steps=[('scaler', MinMaxScaler(copy=True, feature_range=(0, 1))),
+                ('classifier',
+                 SVC(C=7000, cache_size=1500, class_weight='balanced',
+                     coef0=0.0, decision_function_shape='ovr', degree=3,
+                     gamma=0.3, kernel='rbf', max_iter=-1, probability=False,
+                     random_state=None, shrinking=True, tol=0.001,
+                     verbose=False))],
+         verbose=False)
+std: 0.019161539912449788
+score: 0.7685546875
+params: {'classifier__C': 7000, 'classifier__cache_size': 1500, 'classifier__class_weight': 'balanced', 'classifier__coef0': 0.0, 'classifier__decision_function_shape': 'ovr', 'classifier__gamma': 0.3, 'classifier__kernel': 'rbf'}
+*********************************
+
+
+
+*********************************
+CLASSIFIER --> Pipeline
+*********************************
+best estimator: Pipeline(memory=None,
+         steps=[('scaler', MinMaxScaler(copy=True, feature_range=(0, 1))),
+                ('classifier',
+                 SVC(C=4000, cache_size=1500, class_weight='balanced',
+                     coef0=0.0, decision_function_shape='ovr', degree=3,
+                     gamma=0.4, kernel='rbf', max_iter=-1, probability=False,
+                     random_state=None, shrinking=True, tol=0.001,
+                     verbose=False))],
+         verbose=False)
+std: 0.017730459713728698
+score: 0.7630859375
+params: {'classifier__C': 4000, 'classifier__cache_size': 1500, 'classifier__class_weight': 'balanced', 'classifier__coef0': 0.0, 'classifier__decision_function_shape': 'ovr', 'classifier__gamma': 0.4, 'classifier__kernel': 'rbf'}
+*********************************
+
+
+
+
+*********************************
+CLASSIFIER --> Pipeline
+*********************************
+best estimator: Pipeline(memory=None,
+         steps=[('scaler', MinMaxScaler(copy=True, feature_range=(0, 1))),
+                ('classifier',
+                 MLPClassifier(activation='tanh', alpha=8.957894736842106e-06,
+                               batch_size='auto', beta_1=0.9, beta_2=0.999,
+                               early_stopping=False, epsilon=1e-08,
+                               hidden_layer_sizes=(15, 15),
+                               learning_rate='constant',
+                               learning_rate_init=0.007, max_iter=200,
+                               momentum=0.9, n_iter_no_change=10,
+                               nesterovs_momentum=True, power_t=0.5,
+                               random_state=1, shuffle=True, solver='adam',
+                               tol=0.0001, validation_fraction=0.1,
+                               verbose=False, warm_start=False))],
+         verbose=False)
+std: 0.01639810995980653
+score: 0.7755859375
+params: {'classifier__activation': 'tanh', 'classifier__alpha': 8.957894736842106e-06, 'classifier__batch_size': 'auto', 'classifier__beta_1': 0.9, 'classifier__beta_2': 0.999, 'classifier__early_stopping': False, 'classifier__epsilon': 1e-08, 'classifier__hidden_layer_sizes': (15, 15), 'classifier__learning_rate': 'constant', 'classifier__learning_rate_init': 0.007, 'classifier__max_iter': 200, 'classifier__momentum': 0.9, 'classifier__n_iter_no_change': 10, 'classifier__nesterovs_momentum': True, 'classifier__power_t': 0.5, 'classifier__random_state': 1, 'classifier__shuffle': True, 'classifier__solver': 'adam', 'classifier__tol': 0.0001, 'classifier__validation_fraction': 0.1, 'classifier__warm_start': False}
+*********************************
+
+
+
+*********************************
+CLASSIFIER --> Pipeline
+*********************************
+best estimator: Pipeline(memory=None,
+         steps=[('scaler', MinMaxScaler(copy=True, feature_range=(0, 1))),
+                ('classifier',
+                 KNeighborsClassifier(algorithm='kd_tree', leaf_size=5,
+                                      metric='minkowski', metric_params=None,
+                                      n_jobs=None, n_neighbors=14, p=2,
+                                      weights='distance'))],
+         verbose=False)
+std: 0.012290728689493964
+score: 0.732421875
+params: {'classifier__algorithm': 'kd_tree', 'classifier__leaf_size': 5, 'classifier__n_neighbors': 14, 'classifier__weights': 'distance'}
+*********************************
+
+
+
+*********************************
+CLASSIFIER --> Pipeline
+*********************************
+best estimator: Pipeline(memory=None,
+         steps=[('scaler', MinMaxScaler(copy=True, feature_range=(0, 1))),
+                ('classifier',
+                 KNeighborsClassifier(algorithm='kd_tree', leaf_size=5,
+                                      metric='minkowski', metric_params=None,
+                                      n_jobs=None, n_neighbors=10, p=1,
+                                      weights='distance'))],
+         verbose=False)
+std: 0.006114248375975987
+score: 0.734375
+params: {'classifier__algorithm': 'kd_tree', 'classifier__leaf_size': 5, 'classifier__metric': 'minkowski', 'classifier__n_neighbors': 10, 'classifier__p': 1, 'classifier__weights': 'distance'}
+*********************************
+
+
+*********************************
+CLASSIFIER --> Pipeline
+*********************************
+best estimator: Pipeline(memory=None,
+         steps=[('scaler', MinMaxScaler(copy=True, feature_range=(0, 1))),
+                ('classifier',
+                 AdaBoostClassifier(algorithm='SAMME.R',
+                                    base_estimator=DecisionTreeClassifier(class_weight=None,
+                                                                          criterion='gini',
+                                                                          max_depth=None,
+                                                                          max_features=None,
+                                                                          max_leaf_nodes=None,
+                                                                          min_impurity_decrease=0.0,
+                                                                          min_impurity_split=None,
+                                                                          min_samples_leaf=1,
+                                                                          min_samples_split=5,
+                                                                          min_weight_fraction_leaf=0.0,
+                                                                          presort=False,
+                                                                          random_state=None,
+                                                                          splitter='best'),
+                                    learning_rate=0.1, n_estimators=25,
+                                    random_state=None))],
+         verbose=False)
+std: 0.015453156597541002
+score: 0.775390625
+params: {'classifier__base_estimator__max_depth': None, 'classifier__base_estimator__min_samples_split': 5, 'classifier__learning_rate': 0.1, 'classifier__n_estimators': 25}
+*********************************
+
+
+
+
+*********************************
+CLASSIFIER --> Pipeline
+*********************************
+best estimator: Pipeline(memory=None,
+         steps=[('scaler', MinMaxScaler(copy=True, feature_range=(0, 1))),
+                ('classifier',
+                 AdaBoostClassifier(algorithm='SAMME.R',
+                                    base_estimator=DecisionTreeClassifier(class_weight=None,
+                                                                          criterion='gini',
+                                                                          max_depth=None,
+                                                                          max_features=None,
+                                                                          max_leaf_nodes=None,
+                                                                          min_impurity_decrease=0.0,
+                                                                          min_impurity_split=None,
+                                                                          min_samples_leaf=1,
+                                                                          min_samples_split=4,
+                                                                          min_weight_fraction_leaf=0.0,
+                                                                          presort=False,
+                                                                          random_state=None,
+                                                                          splitter='best'),
+                                    learning_rate=0.061111111111111116,
+                                    n_estimators=35, random_state=None))],
+         verbose=False)
+std: 0.012665228778807403
+score: 0.7978515625
+params: {'classifier__base_estimator__max_depth': None, 'classifier__base_estimator__min_samples_split': 4, 'classifier__learning_rate': 0.061111111111111116, 'classifier__n_estimators': 35}
+*********************************
+
+
+
+
+*********************************
+CLASSIFIER --> Pipeline
+*********************************
+best estimator: Pipeline(memory=None,
+         steps=[('scaler', MinMaxScaler(copy=True, feature_range=(0, 1))),
+                ('classifier',
+                 VotingClassifier(estimators=[('ada',
+                                               AdaBoostClassifier(algorithm='SAMME.R',
+                                                                  base_estimator=DecisionTreeClassifier(class_weight=None,
+                                                                                                        criterion='gini',
+                                                                                                        max_depth=None,
+                                                                                                        max_features=None,
+                                                                                                        max_leaf_nodes=None,
+                                                                                                        min_impurity_decrease=0.0,
+                                                                                                        min_impurity_split=None,
+                                                                                                        mi...
+                                                   degree=3, gamma=0.3,
+                                                   kernel='rbf', max_iter=-1,
+                                                   probability=False,
+                                                   random_state=None,
+                                                   shrinking=True, tol=0.001,
+                                                   verbose=False)),
+                                              ('knc',
+                                               KNeighborsClassifier(algorithm='kd_tree',
+                                                                    leaf_size=5,
+                                                                    metric='minkowski',
+                                                                    metric_params=None,
+                                                                    n_jobs=None,
+                                                                    n_neighbors=10,
+                                                                    p=1,
+                                                                    weights='distance'))],
+                                  flatten_transform=True, n_jobs=None,
+                                  voting='hard', weights=None))],
+         verbose=False)
+std: 0.017540106455567944
+score: 0.7802734375
+params: {}
+
+
+
+
+*********************************
+CLASSIFIER --> Pipeline
+VotingClassifier-2019.12.01T17.56.34
+*********************************
+best estimator: Pipeline(memory=None,
+         steps=[('scaler', MinMaxScaler(copy=True, feature_range=(0, 1))),
+                ('classifier',
+                 VotingClassifier(estimators=[('ada',
+                                               AdaBoostClassifier(algorithm='SAMME.R',
+                                                                  base_estimator=DecisionTreeClassifier(class_weight=None,
+                                                                                                        criterion='gini',
+                                                                                                        max_depth=None,
+                                                                                                        max_features=None,
+                                                                                                        max_leaf_nodes=None,
+                                                                                                        min_impurity_decrease=0.0,
+                                                                                                        min_impurity_split=None,
+                                                                                                        mi...
+                                                             validation_fraction=0.1,
+                                                             verbose=False,
+                                                             warm_start=False)),
+                                              ('svc',
+                                               SVC(C=7000, cache_size=1500,
+                                                   class_weight='balanced',
+                                                   coef0=0.0,
+                                                   decision_function_shape='ovr',
+                                                   degree=3, gamma=0.3,
+                                                   kernel='rbf', max_iter=-1,
+                                                   probability=True,
+                                                   random_state=None,
+                                                   shrinking=True, tol=0.001,
+                                                   verbose=False))],
+                                  flatten_transform=True, n_jobs=None,
+                                  voting='soft', weights=[8, 3, 1]))],
+         verbose=False)
+std: 0.02173943063279904
+score: 0.7947265625
+params: {}
